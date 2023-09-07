@@ -1,0 +1,20 @@
+name: Anuj # key: value
+age: 23
+server: #object
+  name: theUnEmployed
+  capacity: 50GB
+college: #list
+  - GCOEY
+  - GPY
+  - AdarshVidyalaya
+Testing: | #Multiline
+  this is 
+  multiline
+  string
+list_of_servers: #list of objects
+  - server_1:
+    name: "ec2"
+    volume: 8gb
+  - server_2:
+    name: "fargat"
+    volume: 5gb
